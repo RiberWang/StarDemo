@@ -15,6 +15,14 @@
 		07C435B01DED2A4D00EEB07A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C435AE1DED2A4D00EEB07A /* LaunchScreen.storyboard */; };
 		07C435BB1DED2A4D00EEB07A /* StarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C435BA1DED2A4D00EEB07A /* StarDemoTests.m */; };
 		07C435C61DED2A4D00EEB07A /* StarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C435C51DED2A4D00EEB07A /* StarDemoUITests.m */; };
+		07CB45541E13E97B00255A37 /* backgroundStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CB454A1E13E97B00255A37 /* backgroundStar.png */; };
+		07CB45551E13E97B00255A37 /* backgroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CB454B1E13E97B00255A37 /* backgroundStar@2x.png */; };
+		07CB45561E13E97B00255A37 /* backgroundStar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CB454C1E13E97B00255A37 /* backgroundStar@3x.png */; };
+		07CB45571E13E97B00255A37 /* CWStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB454E1E13E97B00255A37 /* CWStarRateView.m */; };
+		07CB45581E13E97B00255A37 /* foregroundStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CB454F1E13E97B00255A37 /* foregroundStar.png */; };
+		07CB45591E13E97B00255A37 /* foregroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CB45501E13E97B00255A37 /* foregroundStar@2x.png */; };
+		07CB455A1E13E97B00255A37 /* foregroundStar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CB45511E13E97B00255A37 /* foregroundStar@3x.png */; };
+		07CB455B1E13E97B00255A37 /* RBStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB45531E13E97B00255A37 /* RBStarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,16 @@
 		07C435C11DED2A4D00EEB07A /* StarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C435C51DED2A4D00EEB07A /* StarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarDemoUITests.m; sourceTree = "<group>"; };
 		07C435C71DED2A4D00EEB07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CB454A1E13E97B00255A37 /* backgroundStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundStar.png; sourceTree = "<group>"; };
+		07CB454B1E13E97B00255A37 /* backgroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundStar@2x.png"; sourceTree = "<group>"; };
+		07CB454C1E13E97B00255A37 /* backgroundStar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundStar@3x.png"; sourceTree = "<group>"; };
+		07CB454D1E13E97B00255A37 /* CWStarRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWStarRateView.h; sourceTree = "<group>"; };
+		07CB454E1E13E97B00255A37 /* CWStarRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWStarRateView.m; sourceTree = "<group>"; };
+		07CB454F1E13E97B00255A37 /* foregroundStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foregroundStar.png; sourceTree = "<group>"; };
+		07CB45501E13E97B00255A37 /* foregroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foregroundStar@2x.png"; sourceTree = "<group>"; };
+		07CB45511E13E97B00255A37 /* foregroundStar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foregroundStar@3x.png"; sourceTree = "<group>"; };
+		07CB45521E13E97B00255A37 /* RBStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBStarView.h; sourceTree = "<group>"; };
+		07CB45531E13E97B00255A37 /* RBStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBStarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,7 @@
 		07C4359F1DED2A4D00EEB07A /* StarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				07CB45491E13E97B00255A37 /* StarJudge */,
 				07C435A31DED2A4D00EEB07A /* AppDelegate.h */,
 				07C435A41DED2A4D00EEB07A /* AppDelegate.m */,
 				07C435A61DED2A4D00EEB07A /* ViewController.h */,
@@ -138,6 +157,23 @@
 				07C435C71DED2A4D00EEB07A /* Info.plist */,
 			);
 			path = StarDemoUITests;
+			sourceTree = "<group>";
+		};
+		07CB45491E13E97B00255A37 /* StarJudge */ = {
+			isa = PBXGroup;
+			children = (
+				07CB454A1E13E97B00255A37 /* backgroundStar.png */,
+				07CB454B1E13E97B00255A37 /* backgroundStar@2x.png */,
+				07CB454C1E13E97B00255A37 /* backgroundStar@3x.png */,
+				07CB454D1E13E97B00255A37 /* CWStarRateView.h */,
+				07CB454E1E13E97B00255A37 /* CWStarRateView.m */,
+				07CB454F1E13E97B00255A37 /* foregroundStar.png */,
+				07CB45501E13E97B00255A37 /* foregroundStar@2x.png */,
+				07CB45511E13E97B00255A37 /* foregroundStar@3x.png */,
+				07CB45521E13E97B00255A37 /* RBStarView.h */,
+				07CB45531E13E97B00255A37 /* RBStarView.m */,
+			);
+			path = StarJudge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,8 +283,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C435B01DED2A4D00EEB07A /* LaunchScreen.storyboard in Resources */,
+				07CB45581E13E97B00255A37 /* foregroundStar.png in Resources */,
+				07CB45561E13E97B00255A37 /* backgroundStar@3x.png in Resources */,
+				07CB45551E13E97B00255A37 /* backgroundStar@2x.png in Resources */,
 				07C435AD1DED2A4D00EEB07A /* Assets.xcassets in Resources */,
+				07CB455A1E13E97B00255A37 /* foregroundStar@3x.png in Resources */,
 				07C435AB1DED2A4D00EEB07A /* Main.storyboard in Resources */,
+				07CB45541E13E97B00255A37 /* backgroundStar.png in Resources */,
+				07CB45591E13E97B00255A37 /* foregroundStar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +316,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C435A81DED2A4D00EEB07A /* ViewController.m in Sources */,
+				07CB455B1E13E97B00255A37 /* RBStarView.m in Sources */,
 				07C435A51DED2A4D00EEB07A /* AppDelegate.m in Sources */,
+				07CB45571E13E97B00255A37 /* CWStarRateView.m in Sources */,
 				07C435A21DED2A4D00EEB07A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +551,7 @@
 				07C435CC1DED2A4D00EEB07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07C435CD1DED2A4D00EEB07A /* Build configuration list for PBXNativeTarget "StarDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +560,7 @@
 				07C435CF1DED2A4D00EEB07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07C435D01DED2A4D00EEB07A /* Build configuration list for PBXNativeTarget "StarDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +569,7 @@
 				07C435D21DED2A4D00EEB07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
